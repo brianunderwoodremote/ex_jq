@@ -37,8 +37,8 @@ defmodule JQ.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:poison, "~> 4.0"},
-      {:temp, "~> 0.4"},
+      {:poison, ">= 4.0.0"},
+      {:temp, ">= 0.4.0"},
       {:credo, "~> 1.0", only: :dev, runtime: false},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:mock, "~> 0.3.3", only: :test},
